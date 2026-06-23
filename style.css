@@ -1,0 +1,96 @@
+/* --- CONFIGURACIÓN GENERAL --- */
+body {
+    background-color: #f4f7f6; /* Un gris verdoso muy claro, limpio y ejecutivo */
+    font-family: 'Segoe UI', Arial, sans-serif; /* Tipografía moderna y formal */
+    color: #2c3e50; /* Texto gris oscuro, más suave que el negro puro */
+    padding: 40px;
+    max-width: 900px; /* Centra el contenido para que no se desarme en pantallas grandes */
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* --- LOGO Y ENCABEZADOS --- */
+img.logo {
+    display: block;
+    margin: 0 auto 20px auto; /* Centra el logo automáticamente */
+    width: 120px; /* Un tamaño más visible para que luzca tu logo */
+    height: auto;
+}
+
+h1 {
+    color: #0b6685; /* El azul elegante extraído de tu logo */
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #0b6685;
+    border-bottom: 2px solid #0b6685; /* Una línea sutil divisoria debajo de cada sección */
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #1c2d37;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 16px;
+    color: #4a5568;
+}
+
+/* --- MAPA --- */
+iframe {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #0b6685;
+    border-radius: 8px; /* Bordes ligeramente redondeados, más modernos */
+}
+
+/* --- LISTAS Y SERVICIOS --- */
+ul {
+    padding-left: 20px;
+    list-style-image: url('lista prueba.png');
+}
+
+ul.horario, .Valores {
+    list-style-type: none; /* Quitamos las imágenes de lista para datos tabulares */
+    padding-left: 0;
+}
+
+ol {
+    color: #2c3e50;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* --- BOTONES (Integrando tus imágenes) --- */
+button {
+    background: #0b6685 url('boton prueba.png') no-repeat center;
+    background-size: cover;
+    color: white; /* Texto blanco para que contraste */
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    filter: brightness(1.2); /* Brilla sutilmente cuando pasas el mouse */
+}
+
+.oculto {
+    display: none;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-left: 4px solid #0b6685;
+    margin-top: 5px;
+    border-radius: 4px;
+}
